@@ -1,0 +1,25 @@
+main {
+    background-color: var(--white-color);
+}
+.nha-ban-hang__container {
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    margin-top: 143px;
+}
+.logo-bh {
+    height: 475px;
+}
+.nha-ban-hang__-content {
+    display: flex;
+}
+.tai-sao-chon-lazada__content-img {
+    width: 1190px;
+}
+.support {
+    display: flex;
+}
+.ban-hang-luon-duoc-ho-tro__text-1 p {
+    margin: 10px 0;
+}

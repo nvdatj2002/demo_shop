@@ -1,0 +1,162 @@
+:root {
+    --text-color: #000;
+    --white-color: #fff;
+}
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+}
+body {
+    background-color: #eff0f5;
+    margin: 0;
+}
+.font-size {
+    font-size: 12px;
+}
+.grid {
+    width: 1190px;
+    margin: 0 auto;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+.grid__column {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 16.6667%;
+}
+.none {
+    display: none !important;
+ 
+}
+/* sản phẩm */
+.grid__san-pham {
+    width: 1190px;
+    margin: 0 auto;
+}
+.grid__san-pham-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid__san-pham-column-8 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83%;
+}
+.grid__san-pham-column-8-content {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
+/* pagition */
+.pagination {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 20px 0;
+}
+.pagination-item {
+    list-style: none;
+}
+.pagination-item__link {
+    display: block;
+    width: 30px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    border: 1px solid #37a8c0;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+}
+.pagination-item__link--brg {
+    background-color: #1a9cb7;
+    color: var(--white-color);
+}
+.pagination-item__link-none {
+    border: none;
+}
+/* footer  */
+.footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #f4f4f6;
+}
+.footer__content{
+    width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__lien-he {
+    width: 25%; 
+}
+.footer__lien-he-h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.footer__lien-he-ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 0px;
+} 
+.footer a {
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer__vn {
+   width: 25%;
+}
+.footer__vn-h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.footer__vn-ul {
+    padding: 0;
+    list-style: none;
+}
+.footer__gioi-thieu {
+    flex: 1;
+    margin-top: 25px;
+}
+.footer__gioi-thieu-app {
+    display: flex;
+}
+.footer__gioi-thieu-app-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.footer__gioi-thieu-app-span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    margin-right: 30px;
+}
+.footer__gioi-thieu-app-img {
+    height: 40px;
+    margin: 0 5px;
+}
+
+.footer__gioi-thieu-address-ul {
+   list-style: none;
+   padding: 0;
+   font-size: 13px;
+}
